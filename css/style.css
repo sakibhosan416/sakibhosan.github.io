@@ -1,0 +1,560 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+.main{
+	max-width: 1130px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+/*header*/
+
+#header{
+	float: left;
+	width: 100%;
+	background: url(../images/header.jpg) no-repeat;
+	height: 680px;	
+}
+
+.logo{
+	float: left;
+	
+}
+.logo h5{
+	color: #fff;
+	font-size: 30px;
+	margin: 30px 0 0 200px;
+}
+
+.header-menu{
+	float: right;
+	
+}
+.header-menu ul{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.header-menu ul li{
+	float: left;
+	list-style: none;
+	padding: 30px;
+}
+.header-menu ul li a{
+	float: left;
+	color: #fff;
+	transition: .6s;
+	text-decoration: none;
+	font-size: 20px;
+}
+.header-menu ul li a:hover{
+	float: left;
+	color: #FFB400;
+}
+
+.header-menu ul li a span{
+	float: left;
+	color: #FFB400;
+}
+.sakib{
+	width: 50%;
+	float: left;
+	
+}
+.sakib img{
+	margin: 10px 30px 20px;
+	float: left;
+	height: 500px;
+	border-radius: 20px;
+	box-shadow: 0 3px 6px 2px #111111;
+}
+.sakib-detalis{
+	float: left;
+	margin-top: 150px;
+	width: 50%;
+	color: #fff;
+}
+.sakib-detalis h5{
+	font-size: 25px;
+	margin: 0;
+	font-weight: 400;
+
+}
+.sakib-detalis h3{
+	font-size: 45px;
+	font-family: 'Patua One', cursive;
+}
+.sakib-detalis span{
+	font-size: 45px;
+	color: #FFB400;
+	font-family: 'Patua One', cursive;
+}
+.sakib-detalis p{
+	font-size: 18px;
+	padding: 0 120px 0 0 ;
+	font-family: 'PT Sans', sans-serif;
+
+}
+.sakib-detalis a button{
+	font-size: 18px;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 25px;
+	background: #FFB400;
+	margin: 10px 0;
+	color: #fff; 
+	font-family: 'Patua One', cursive;
+	transition: .6s;
+}   
+.sakib-detalis a button:hover{
+	background: #c68e0b;
+	font-family: 'Patua One', cursive;
+}   
+
+
+
+/*about-me*/
+#about-me{
+	float: left;
+	background: #111111;
+	width: 100%;
+	padding-bottom: 100px;
+}
+.br{
+	margin: 30px 0 0 300px;
+	width: 50%;
+	float: left;
+	border-top: 1px #232323 solid;
+}
+.about-me{
+	padding-top:100px;
+}
+.about-me h3{
+	text-align: center;
+	color: #fff;
+	font-family: 'Patua One', cursive;
+	font-size: 60px;
+}
+.about-me h3 span{
+	color: #FEB812;
+	font-family: 'Patua One', cursive;
+}
+.infos{
+	padding-top: 90px;
+	float: left;
+	width: 100%;
+	
+	
+}
+.infos h5{
+	font-size: 30px;
+	margin-left: 40px;
+	color: #fff;
+	font-family: 'Patua One', cursive;
+
+}
+.name{
+	width: 50%;
+	float: left;
+}
+.name ul {
+	margin-top: 10px;
+	float: left;
+	list-style: none;
+}
+.name ul li{
+	color: #fff;
+	font-size: 16px;
+	padding:7px 0;
+	
+}
+.name ul li span{
+	font-weight: 600;
+}
+
+ 
+.about{
+	padding-top: 50px;
+	float: left;
+	width: 100%;
+	padding-left: 30px;
+	
+	
+
+}
+.about-box{
+	float: left;
+	width: 40%;
+	color: #fff;
+	text-align: center;
+	padding: 20px 20px;
+	margin: 6px;
+	border: 1px #6b6b6b solid;
+}
+
+.about h3{
+	color: #FFB400;
+	
+	
+}
+
+.br2{
+	margin: 80px 0 50px 300px;
+	width: 50%;
+	float: left;
+	border-top: 1px #232323 solid;
+}
+.skill{
+	float: left;
+	width: 100%;
+}
+.skill h3{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Patua One', cursive;
+	color: #fff;
+}
+.skill h3 span{
+	color: #FFB400;
+}
+
+.box{
+	float: left;
+	width: 100%;
+	padding-left: 200px;
+}
+
+.container{
+	color: #fff;
+	font-size: 20px;
+}
+.container h2{
+	
+	color: #fff;
+	margin: 30px 0 5px;
+	/*font-family: 'Patua One', cursive;*/
+	font-size: 18px;
+}
+
+
+
+/*service*/
+
+#service{
+	float: left;
+	background: #111111;
+	width: 100%;
+	padding-bottom: 50px;
+	color: #fff;
+	text-align: center;
+}
+
+.service{
+	float: left;
+	width: 100%;
+	border-top:1px #232323 solid;
+}
+.service h3{
+	margin-top: 50px;
+	font-size: 50px;
+	color: #FFB912;
+	font-family: 'Patua One', cursive; 
+}
+.service p{
+	font-size: 18px;
+}
+
+.service-box{
+	margin-top: 50px;
+	border:1px #232323 solid;
+	height: 300px;
+	padding: 50px 20px;
+	border:1px #232323 solid;
+	border-radius: 20px;
+}
+.service-box:hover{
+	margin-top: 50px;
+	border:1px #fff solid;
+	height: 300px;
+	padding: 50px 20px;
+	transition: all ease 0.5s;
+	
+}
+
+.service-box i{
+	font-size: 50px;
+	color: #FFB912;
+	margin-bottom: 20px;
+}
+.service-box h5{
+	font-family: 'Patua One', cursive; 
+}
+
+.service-box p{
+	font-size: 16px;
+	margin-top: 10px;
+	color: #d6d6d6;
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+
+
+/**/
+#prtfolio{
+	float:left;
+	width:100%;
+	background: #111111;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.prtfolio{
+	float: left;
+	width: 100%;
+}
+.prtfolio h3{
+	margin-top: 30px;
+	font-size: 50px;
+	color: #fff;
+	font-family: 'Patua One', cursive; 
+}
+.prtfolio h3 span{
+	margin-top: 50px;
+	font-size: 50px;
+	color: #FEB812;
+	font-family: 'Patua One', cursive; 
+}
+.prtfolio p{
+	font-size: 18px;
+	color: #fff;
+	
+}
+.deal-menu{
+	padding-left: 100px;
+	margin-top:20px;
+	float:left;
+}
+.deal-menu h2{
+	margin-top:50px;
+	font-size:20px;
+	
+}
+
+
+.nav-item a{
+	color:#fff;
+	font-family: 'PT Sans', sans-serif;
+	
+}
+.nav-item a:hover{
+	color:#FEB812;
+	font-family: 'PT Sans', sans-serif;
+	text-decoration: none;
+}
+
+
+.container{
+	float: left;
+	width:100%;
+	
+}
+
+.Best-product{
+	float:left;
+	width:110%;
+	margin-top:30px;
+}
+
+.product-box{
+	float:left;
+	width:100%;
+	
+}
+
+.product-box img{
+	float:left;
+	width:100%;
+	height: 200px;
+	border:1px #bfbfbf solid;
+	
+}
+
+.product-box p{
+	float:left;
+	margin:0;
+	color:#77A72F;
+	font-weight:600;
+}
+.product-box h2{
+	float:left;
+	margin:10px 0;
+	font-size:24px;
+}
+
+.product-box button{
+	float:left;
+	width:70%;
+	background:#d3d3d3;
+	border:0;
+	border-radius:5px;
+	padding:10px;
+	transition:.6s;
+}
+
+.product-box button:hover{
+	float:left;
+	width:70%;
+	background:#77A72F;
+	border:0;
+	color:#fff;
+	border-radius:5px;
+	padding:10px;
+}
+
+
+/*blog*/
+#blog{
+	float: left;
+	background: #111111;
+	width: 100%;
+	padding-bottom: 100px;
+	
+}
+
+.blog{
+	float: left; 
+	width: 100%;
+}
+.blog{
+	float: left; 
+	width: 100%;
+}
+
+.blog h3{
+	margin-top: 30px;
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	font-family: 'Patua One', cursive; 
+}
+.blog h3 span{
+	margin-top: 50px;
+	font-size: 50px;
+	color: #FEB812;
+	font-family: 'Patua One', cursive; 
+}
+
+.blog-box{
+	float: left;
+	width: 100%;
+	background: #252525;
+	margin-top: 30px;
+
+}
+.blog-box img{
+	float: left;
+	width: 100%;
+}
+.br3{
+	float: left;
+	width: 100%;
+	border: 3px #FEB812 solid;
+}
+
+.blog-box{
+	overflow:hidden;
+}
+.blog-box img{
+	transition: all 1.5s ease;
+}
+.blog-box:hover img{
+	transform: scale(1.1);
+}
+.blog-box h5{
+	color: #fff;
+	margin-top: 225px;
+	padding: 10px 30px 0;
+}
+
+.blog-box p{
+	color: #fff;
+	padding: 0 0 20px 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*attached-social-bar*/ 
+.a-social-b{
+	position: fixed;
+	top: 50%;
+	right: 0px;
+	transform: translateY(-50%);
+}
+.a-social-b a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	padding:0px;
+	margin: 0px;
+	line-height: 0px;
+	background:#ffffff;
+	border: 1px solid #000000;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	
+}
+.a-social-b i{
+	color: #2b2b2b;
+	font-size: 20px;
+}
+.a-social-b a:hover {
+	background: #000000;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	transition: all ease 0.5s;
+	text-decoration: none;
+}
+.a-social-b a:hover i{
+	color: #fff;
+	transition: all ease 0.5s;
+}
+
+
+
+
+
+
+
+
+
